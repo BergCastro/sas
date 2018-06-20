@@ -17,8 +17,8 @@ module.exports = function (server) {
     const Ope = require('../api/ope/opeService')
     Ope.register(protectedApi, '/opes')
 
-    const TiposOpes = require('../api/tiposOpes/tiposOpesService')
-    TiposOpes.register(protectedApi, '/tiposOpes')
+    const TesteFisico = require('../api/testeFisico/testeFisicoService')
+    TesteFisico.register(protectedApi, '/testesFisicos')
 
    
 

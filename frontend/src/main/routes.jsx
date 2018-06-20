@@ -5,6 +5,7 @@ import Dashboard from '../dashboard/dashboard'
 import BillingCycle from '../billingCycle/billingCycle'
 import Prova from '../prova/prova'
 import TipoTeste from '../tipoTeste/tipoTeste'
+import TesteFisico from '../testeFisico/testeFisico'
 import Ope from '../ope/ope'
 import TipoOpe from '../tipoOpe/tipoOpe'
 
@@ -15,7 +16,7 @@ export default props => (
             <Route exact path='/' component={Dashboard} />
             <Route path='/billingCycles' component={BillingCycle} />
             <Route path='/provas' component={Prova} />
-            <Route path='/tiposTeste' component={TipoTeste} />
+            <Route path='/testesFisicos' component={TesteFisico} />
             <Route path='/opes' component={Ope} />
             <Route path='/tiposOpes' component={TipoOpe} />
             <Redirect from='*' to='/' />
